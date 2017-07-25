@@ -46,9 +46,10 @@
         window.oncontextmenu = function () { return false; };
     </script>
 
-    <!--<script type="text/javascript" src="index.min.js"></script>-->
+    <script type="text/javascript" src="index.min.js"></script>
+    <script type="text/javascript"> MainPage.actionExit(); </script>
 </head>
-<body onkeydown="mainEventListener(event);" id="body" style="display:none">
+<body onkeydown="mainEventListener(event);" id="body">
 <div id="loading">
     <span>Loading...</span>
     <div id="loadingVersion"></div>
@@ -56,7 +57,7 @@
 
 
 <div class="volumeContainer">
-    <div class="mute"></div>
+    <div class="mute" style="display:none"></div>
     <div class="volumeForm" style="display:none">
         <img src="img/volume/volume_left.png" alt="volume">
         <div></div>
@@ -65,7 +66,7 @@
 
 
 <!-- PAGE 1 - main page -->
-<div class="page" id="MainPage">
+<div class="page" id="MainPage" style="display: none">
     <!-- main page body -->
     <table class="body">
         <!-- page body top panel -->
