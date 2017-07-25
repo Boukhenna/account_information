@@ -1,0 +1,19 @@
+{
+  "name": "account_information",
+  "date": "2017.07.24",
+  "version": "1.0.1",
+  "description": "account informations.",
+  "author": {
+    "name": "boukhenna ibrahim",
+    "email": "boukhenna.ibrahim@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Boukhenna/account_information.git"
+  },
+  "dependencies": {},
+  "config": {
+    "backgroundColor":"#eda944",
+    "icons":"icons"
+  }
+}
